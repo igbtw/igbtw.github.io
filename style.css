@@ -1,9 +1,18 @@
-// paleta principal 
-:root { 
+/* paleta principal  */
+:root {
   --bg: #161616;
   --surface: #262626;
   --accent: #78a9ff;
   --accent-2: #3ddbd9;
   --text: #f2f4f8;
   --muted: #6f6f6f;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--text);
 }
