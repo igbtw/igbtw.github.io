@@ -20,8 +20,37 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-a {
+.nome {
   text-decoration: none;
+  color: inherit;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.lista li {
+  color: var(--muted);
+  font-size: 18px;
+  padding-left: 1rem;
+  border-left: 2px solid var(--accent);
+}
+
+.lista li a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.lista li a:hover {
+  color: var(--accent-2);
+}
+
+a {
   color: inherit;
 }
 
@@ -39,6 +68,7 @@ h3 {
 p {
   color: var(--muted);
   font-size: 18px;
+  padding-bottom: 10px;
 }
 
 .container {
@@ -47,7 +77,7 @@ p {
   padding-top: 4rem;
   padding-left: 4.4rem;
   padding-right: 4.4rem;
-  max-width: 1250px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
