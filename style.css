@@ -8,35 +8,51 @@
   --muted: #6f6f6f;
 }
 
-body {
-  background-color: var(--bg);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-li {
-  font-size: 1.2rem;
-  color: var(--surface); #TODO procurar uma cor melhor 
+body {
+  background-color: var(--bg);
+  min-height: 100vh;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 60px;
   color: var(--text);
 }
 
-h2 {
+h3 {
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: var(--text);
 }
 
 p {
-  font-size: 1.2rem;
-  color: var(--text);
-}
-
-p muted {
-  font-size: 1.2rem;
   color: var(--muted);
-
+  font-size: 18px;
 }
 
-a {
-  color: var(accent-2);
+.container {
+  display: flex;
+  gap: 0.8rem;
+  padding-top: 4rem;
+  padding-left: 4.4rem;
+  padding-right: 4.4rem;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.box {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
 }
