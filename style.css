@@ -22,7 +22,8 @@ body {
 
 .nome {
   text-decoration: none;
-  color: inherit;
+  color: var(--accent);
+  font-weight: 300;
 }
 
 .lista {
@@ -48,6 +49,26 @@ body {
 
 .lista li a:hover {
   color: var(--accent-2);
+}
+
+.skills {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 5.4rem 4rem;
+}
+
+.skills-title {
+  color: var(--muted);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 0.8rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 a {
