@@ -18,6 +18,8 @@ body {
   background-color: var(--bg);
   min-height: 100vh;
   font-family: 'IBM Plex Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .nome {
@@ -90,6 +92,14 @@ p {
   color: var(--muted);
   font-size: 18px;
   padding-bottom: 10px;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .container {
